@@ -263,6 +263,7 @@
           case 22: require("Report/fee.php"); break;
           case 23: require("Order/list_ordering.php"); break;
           case 24: require("Product/category.php"); break;
+          case 25: require("Product/category_list.php"); break;
           default: require("dashboard.php"); break;
         }
        ?>
